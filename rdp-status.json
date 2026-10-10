@@ -57,6 +57,11 @@
     "note": "dilewati sesuai config",
     "status": "skip"
   },
+  "memory": {
+    "total_mb": 16379,
+    "available_mb": 13945,
+    "measured": "akhir setup"
+  },
   "akses": {
     "mode": "tunnel",
     "tailscale": {
@@ -75,15 +80,11 @@
       "port": 35579,
       "address": "bzkkw-104-209-10-224.run.pinggy-free.link:35579",
       "rdp_local": "127.0.0.1 -> terbuka",
-      "selftest": "ok",
       "outside": "tidak diuji (tidak bisa diuji dari luar: Response status code does not indicate success: 403 (Forbidden).)",
       "note2": "Tunnel VALID (self-test ok, luar tidak diuji karena rate-limit — hampir pasti bisa dari HP)",
-      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin"
+      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin",
+      "selftest": "gagal"
     }
   },
-  "memory": {
-    "total_mb": 16379,
-    "available_mb": 13945,
-    "measured": "akhir setup"
-  }
+  "heartbeat_at": "2026-10-10T17:42:00Z"
 }
